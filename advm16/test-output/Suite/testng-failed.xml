@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testrun1(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testngg.script6">
+        <methods>
+          <include name="scrippt6"/>
+          <include name="beforemethod"/>
+          <include name="aftersuite"/>
+          <include name="beforesuit"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- testngg.script6 -->
+      <class name="testngg.script5">
+        <methods>
+          <include name="scrippt5"/>
+          <include name="beforemethod"/>
+          <include name="aftersuite"/>
+          <include name="beforesuit"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- testngg.script5 -->
+      <class name="testngg.script2">
+        <methods>
+          <include name="scrippt2"/>
+          <include name="beforemethod"/>
+          <include name="aftersuite"/>
+          <include name="beforesuit"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- testngg.script2 -->
+      <class name="testngg.script">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftersuite"/>
+          <include name="beforesuit"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+          <include name="script1"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- testngg.script -->
+      <class name="testngg.script7">
+        <methods>
+          <include name="scrippt7"/>
+          <include name="beforemethod"/>
+          <include name="aftersuite"/>
+          <include name="beforesuit"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- testngg.script7 -->
+      <class name="testngg.script4">
+        <methods>
+          <include name="scrippt4"/>
+          <include name="beforemethod"/>
+          <include name="aftersuite"/>
+          <include name="beforesuit"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- testngg.script4 -->
+      <class name="testngg.script3">
+        <methods>
+          <include name="scrippt3"/>
+          <include name="beforemethod"/>
+          <include name="aftersuite"/>
+          <include name="beforesuit"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- testngg.script3 -->
+    </classes>
+  </test> <!-- Testrun1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
